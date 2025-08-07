@@ -25,3 +25,5 @@ replay_pid*
 *.ide
 .iml
 .xml
+*.xml
+.idea/JavaOOP_24072025.iml
