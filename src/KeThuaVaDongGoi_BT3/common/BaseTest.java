@@ -3,13 +3,13 @@ package KeThuaVaDongGoi_BT3.common;
 public class BaseTest {
     protected static void createDriver()
     {
-        System.out.println(Constants.browser);
-        System.out.println(Constants.headless);
-        System.out.println(Constants.report);
+        System.out.println("Browser: " +Constants.browser);
+        System.out.println("Headless: " +Constants.headless);
+        System.out.println("Report: " +Constants.report);
     }
     protected static void closeDriver(String browser)
     {
-        System.out.println("Closed browser" + browser);
+        System.out.println("Closed browser: " + browser);
     }
     protected static void setName(String name)
     {
